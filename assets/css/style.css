@@ -52,7 +52,7 @@ header .headerTopButton input {
   padding: 14px 26px;
   background-color: #170027;
   height: 44px;
-  width: 250px;
+  width: 80%;
   border: none;
   color: #fbf6ff;
   border-radius: 4px 0 0 4px;
@@ -63,7 +63,7 @@ header .headerTopButton button {
   align-items: center;
   justify-content: center;
   height: 44px;
-  width: 70px;
+  min-width: 70px;
   background-color: #9e6dc2;
   border: none;
   border-radius: 0 4px 4px 0;
@@ -110,6 +110,9 @@ header .headerHero .headerHeroRight {
   align-items: center;
   justify-content: center;
 }
+header .headerHero .headerHeroRight img {
+  max-width: 100%;
+}
 
 main {
   background-color: #fbf6ff;
@@ -123,6 +126,10 @@ main .mainTop {
 }
 main .mainTop .mainTopLeft {
   width: 573px;
+  margin-right: 20px;
+}
+main .mainTop .mainTopLeft img {
+  max-width: 90%;
 }
 main .mainTop .mainTopRight {
   width: 472px;
@@ -145,7 +152,12 @@ main .mainBottom {
        column-gap: 30px;
 }
 main .mainBottom div {
-  width: 400px;
+  max-width: 400px;
+}
+main .mainBottom div img {
+  width: 100%;
+  height: 100%;
+  min-height: 60px;
 }
 main .mainBottom div h2 {
   color: #290742;
